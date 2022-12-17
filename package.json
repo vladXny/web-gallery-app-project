@@ -1,16 +1,18 @@
 {
-  "name": "client",
+  "name": "web-gallery-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "#",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "start": "webpack serve --mode development --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
   }
 }
